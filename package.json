@@ -1,0 +1,31 @@
+{
+  "name": "script-visualizer",
+  "productName": "Script Visualizer",
+  "version": "0.0.1",
+  "description": "A simple way to visualize fountain screenplays.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "electron .",
+    "buildosx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=src/img/outliner-display-icon.icns"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setpixel/script-visualizer.git"
+  },
+  "keywords": [
+    "fountain",
+    "screenplay",
+    "visualizer"
+  ],
+  "author": "Charles Forman",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.3"
+  },
+  "dependencies": {
+    "color-js": "^1.0.3",
+    "jquery": "^3.1.0",
+    "moment": "^2.14.1",
+    "pdf2json": "^1.1.7"
+  }
+}

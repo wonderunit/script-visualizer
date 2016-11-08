@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/welcome.css">
+  </head>
+  <body style="-webkit-app-region: drag">
+    <div id="ad">
+    <iframe id="Example2"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://wonderunit.com/">
+    </iframe>
+    <div id="close-button">&#10005;</div>
+    </div>
+    <div id="content">
+      <div class="title">
+        <div class="logo">
+          <img src='./img/logoicon.png'>
+        </div>
+        <div class="text">
+          <div>WONDER UNIT // 2017 Release</div>
+          <h1>Script Visualizer</h1>
+          <div></div>
+        </div>
+      </div>
+      <span class="recent"></span>
+      <div id="recent">
+        <div id="welcome">
+          <p>Script Visualizer simply displays your screenplay so you can experience it like a movie.</p>
+          
+          <p>It automatically goes through the script and calculates the timing for each scene, so when you play it back, it will be very similar to actual shot video. Additionally, Script Visualizer can read the script back to you as you edit your script.</p>
+          <p>Simply open a screenplay...</p>
+        </div>
+      </div>
+
+      <div class="button grey left" id="getting-started">Getting started...</div>
+      <div class="button blue right" id="open-script">Open script...</div>
+
+    </div>
+  
+
+  </body>
+
+  <script>
+    window.nodeRequire = require;
+    delete window.require;
+    delete window.exports;
+    delete window.module;
+  </script>
+  
+  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/welcome.js"></script>
+  <script>
+    nodeRequire('./js/welcomeWindow.js')
+  </script>
+</html>
