@@ -22,7 +22,8 @@ cd script-visualizer
 # Install dependencies
 npm install
 # Run the app
-npm start```
+npm start
+```
 
 ## How to use
 
