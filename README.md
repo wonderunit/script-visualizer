@@ -15,9 +15,14 @@ Simply open a screenplay in PDF or Fountain format.
 ## Installation
 
 ```
+# Clone this repository
+git clone https://github.com/setpixel/script-visualizer
+# Go into the repository
+cd script-visualizer
+# Install dependencies
 npm install
-npm start
-```
+# Run the app
+npm start```
 
 ## How to use
 
