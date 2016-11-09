@@ -2,6 +2,8 @@
 
 Script Visualizer simply displays your screenplay so you can experience it like a movie.
 
+![Script Visualizer Screenshot](https://raw.githubusercontent.com/setpixel/script-visualizer/master/media/screenshot1.png)
+
 It automatically goes through the script and calculates the timing for each scene, so when you play it back, it will be very similar to actual shot video. Additionally, Script Visualizer can read the script back to you as you edit your script.
 
 Script Visualizer is just a viewer. You write your screenplay, Script Visualizer provides a time-paced way to view it.
