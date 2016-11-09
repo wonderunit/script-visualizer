@@ -16,6 +16,12 @@ Simply open a screenplay in PDF or Fountain format.
 
 ## Installation
 
+### Download for OS X here: https://github.com/setpixel/script-visualizer/releases/download/0.0.1/Script.Visualizer.zip
+
+or
+
+### Install from source:
+
 ```
 # Clone this repository
 git clone https://github.com/setpixel/script-visualizer
