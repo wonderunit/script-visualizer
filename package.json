@@ -20,7 +20,7 @@
   "author": "Charles Forman",
   "license": "ISC",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.3"
+    "electron-prebuilt": "^1.4.5"
   },
   "dependencies": {
     "color-js": "^1.0.3",
